@@ -309,6 +309,7 @@ section .menus {
 @media screen and (max-width: 768px) {
   section h2 {
     font-size: 40px;
+    margin-bottom: 30px;
   }
   .menus {
     padding: 0px;
@@ -316,6 +317,22 @@ section .menus {
   .titre_menus img {
     width: 130px;
     height: auto;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  section h2 {
+    font-size: 30px;
+  }
+  .menus {
+    padding: 0px;
+  }
+  .titre_menus img {
+    width: 110px;
+    height: auto;
+  }
+  .prix p {
+    font-size: 14px;
   }
 }
 /*# sourceMappingURL=le-delice-des-papilles.css.map */

@@ -5,19 +5,10 @@
   }
 }
 
-@media screen and (max-width: 800px) {
-  .prochainement {
-    width: 350px;
-    height: auto;
-
-    & p {
-      font-size: 15px;
-      margin-left: 20px;
-    }
-  }
-}
-
 @media screen and (max-width: 768px) {
+  .bloc__menu{
+    margin: 0 50px;
+  }
   header {
     height: 70px;
     font-size: 20px;
@@ -45,13 +36,17 @@
   .prochainement {
     margin-bottom: 60px;
   }
+  footer{
+    & h3 {
+      font-size: 15px;
+    }
+    & .mentions {
+    margin: auto auto auto 20px;
+  }
+
+  & .contact {
+    margin: auto 20px auto auto;
+  }
+  }
 }
 
-@media screen and (max-width: 372px) {
-  .mentions {
-    font-size: 12px;
-  }
-  .contact {
-    font-size: 12px;
-  }
-}

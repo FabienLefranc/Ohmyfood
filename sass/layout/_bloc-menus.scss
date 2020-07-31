@@ -1,6 +1,7 @@
 .bloc__menu {
   display: flex;
   flex-direction: column;
+  margin: 0 100px;
 }
 
 .bloc__menu--items {
@@ -31,7 +32,7 @@
   }
 }
 .bloc__item {
-  width: 220px;
+  width: 200px;
   height: 290px;
   box-shadow: 2px 2px 10px grey;
 }
