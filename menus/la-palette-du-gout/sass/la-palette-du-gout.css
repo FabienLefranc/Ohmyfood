@@ -206,6 +206,9 @@ section .menus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -216,16 +219,10 @@ section .menus {
 .titre_menus img {
   width: 170px;
   height: auto;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
 }
 
 .titre_menus .titre-menu {
   text-align: center;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
 }
 
 .entrées,
@@ -278,24 +275,22 @@ section .menus {
 }
 
 @media screen and (max-width: 750px) {
-  .menus .titre_menus img {
-    width: 130px;
+  .titre_menus img {
+    width: 150px;
     height: auto;
     margin: 0;
   }
-  .menus .titre-menu {
+  .titre-menu {
     margin: 0;
   }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 660px) {
   .menus .titre_menus img {
-    width: 100px;
-    -webkit-box-flex: 0.5;
-        -ms-flex: 0.5;
-            flex: 0.5;
+    width: 130px;
+    height: auto;
   }
-  .menus .titre-menu a {
+  .menus .titre_menus .titre-menu a {
     font-size: 14px;
   }
   body p {
@@ -312,7 +307,11 @@ section .menus {
   }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 610px) {
+  .menus .titre_menus img {
+    width: 110px;
+    height: auto;
+  }
   section h2 {
     font-size: 25px;
     margin-bottom: 30px;
@@ -323,21 +322,13 @@ section .menus {
   footer .contact {
     font-size: 12px;
   }
-  .menus {
-    margin-bottom: 18px;
-  }
-  .menus .titre_menus {
-    margin-bottom: 15px;
-  }
-  .menus .titre_menus img {
-    width: 70px;
-    -webkit-box-flex: 0.2;
-        -ms-flex: 0.2;
-            flex: 0.2;
-  }
 }
 
-@media screen and (max-width: 510px) {
+@media screen and (max-width: 550px) {
+  .menus .titre_menus img {
+    width: 90px;
+    height: auto;
+  }
   .entrées .entrée,
   .entrées .plat,
   .entrées .dessert,
@@ -396,35 +387,47 @@ section .menus {
   }
 }
 
-@media screen and (max-width: 430px) {
-  .titre_section img {
-    width: 25px;
+@media screen and (max-width: 505px) {
+  .menus .titre_menus img {
+    width: 90px;
     height: auto;
   }
-  .titre_section h2 {
-    font-size: 18px;
-  }
-  .menus {
-    margin-bottom: 14px;
-  }
-  .menus .titre_menus {
-    margin-bottom: 14px;
-  }
-  .menus .titre_menus img {
-    width: 50px;
+  .menus .titre_menus .titre-menu a {
+    font-size: 13px;
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 490px) {
   section {
     padding: 10px;
   }
+}
+
+@media screen and (max-width: 420px) {
   .menus .titre_menus img {
-    width: 25px;
+    width: 80px;
     height: auto;
   }
-  .menus .titre_menus a {
-    font-size: 12px;
+}
+
+@media screen and (max-width: 390px) {
+  .menus .titre_menus img {
+    width: 70px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .menus .titre_menus img {
+    width: 60px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .menus .titre_menus img {
+    width: 50px;
+    height: auto;
   }
 }
 /*# sourceMappingURL=la-palette-du-gout.css.map */

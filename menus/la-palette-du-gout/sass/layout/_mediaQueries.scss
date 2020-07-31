@@ -1,27 +1,25 @@
 @media screen and (max-width: 750px) {
+  .titre_menus {
+    & img {
+      width: 150px;
+      height: auto;
+      margin: 0;
+    }
+  }
+  .titre-menu {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 660px) {
   .menus {
     .titre_menus {
       & img {
         width: 130px;
         height: auto;
-        margin: 0;
       }
-    }
-    .titre-menu {
-      margin: 0;
-    }
-  }
-}
-@media screen and (max-width: 650px) {
-  .menus {
-    .titre_menus {
-      & img {
-        width: 100px;
-        flex: 0.5;
+      .titre-menu a {
+        font-size: 14px;
       }
-    }
-    .titre-menu a {
-      font-size: 14px;
     }
   }
   body {
@@ -44,7 +42,15 @@
   }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 610px) {
+  .menus {
+    .titre_menus {
+      & img {
+        width: 110px;
+        height: auto;
+      }
+    }
+  }
   section {
     & h2 {
       font-size: 25px;
@@ -61,19 +67,18 @@
       font-size: 12px;
     }
   }
+  
+}
+
+@media screen and (max-width: 550px) {
   .menus {
-    margin-bottom: 18px;
     .titre_menus {
-      margin-bottom: 15px;
       & img {
-        width: 70px;
-        flex: 0.2;
+        width: 90px;
+        height: auto;
       }
     }
   }
-}
-
-@media screen and (max-width: 510px) {
   .entrées,
   .plats,
   .desserts {
@@ -103,42 +108,62 @@
   }
 }
 
-@media screen and (max-width: 430px) {
-  .titre_section {
-    & img {
-      width: 25px;
-      height: auto;
-    }
-
-    & h2 {
-      font-size: 18px;
-    }
-  }
+@media screen and (max-width: 505px) {
   .menus {
-    margin-bottom: 14px;
-
-    & .titre_menus {
-      margin-bottom: 14px;
-
+    .titre_menus {
       & img {
-        width: 50px;
+        width: 90px;
+        height: auto;
+      }
+      .titre-menu a {
+        font-size: 13px;
       }
     }
   }
 }
-@media screen and (max-width: 375px) {
-    section{
-        padding:10px;
-    }
+@media screen and (max-width: 490px) {
+  section {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 420px) {
   .menus {
-    & .titre_menus {
+    .titre_menus {
       & img {
-        width: 25px;
+        width: 80px;
         height: auto;
       }
+    }
+  }
+}
+@media screen and (max-width: 390px) {
+  .menus {
+    .titre_menus {
+      & img {
+        width: 70px;
+        height: auto;
+      }
+    }
+  }
+}
 
-      & a {
-        font-size: 12px;
+@media screen and (max-width: 360px) {
+  .menus {
+    .titre_menus {
+      & img {
+        width: 60px;
+        height: auto;
+      }
+    }
+  }
+}
+@media screen and (max-width: 340px) {
+  .menus {
+    .titre_menus {
+      & img {
+        width: 50px;
+        height: auto;
       }
     }
   }
