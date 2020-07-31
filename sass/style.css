@@ -1,0 +1,663 @@
+/* VARIABLES couleur */
+@-webkit-keyframes wiggle {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  30% {
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
+  }
+  40% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+  }
+  50% {
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
+  }
+  60% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+  }
+  70% {
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
+  }
+  80% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+@keyframes wiggle {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  30% {
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
+  }
+  40% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+  }
+  50% {
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
+  }
+  60% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+  }
+  70% {
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
+  }
+  80% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+@-webkit-keyframes point1 {
+  0% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    -webkit-transform: scale(1.2, 0.8) translateY(0);
+            transform: scale(1.2, 0.8) translateY(0);
+  }
+  30% {
+    -webkit-transform: scale(0.8, 1.2) translateY(-0.5em);
+            transform: scale(0.8, 1.2) translateY(-0.5em);
+  }
+  50% {
+    -webkit-transform: scale(1.1, 0.9) translateY(0);
+            transform: scale(1.1, 0.9) translateY(0);
+  }
+  57% {
+    -webkit-transform: scale(1, 1) translateY(-0.03em);
+            transform: scale(1, 1) translateY(-0.03em);
+  }
+  64% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+}
+
+@keyframes point1 {
+  0% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    -webkit-transform: scale(1.2, 0.8) translateY(0);
+            transform: scale(1.2, 0.8) translateY(0);
+  }
+  30% {
+    -webkit-transform: scale(0.8, 1.2) translateY(-0.5em);
+            transform: scale(0.8, 1.2) translateY(-0.5em);
+  }
+  50% {
+    -webkit-transform: scale(1.1, 0.9) translateY(0);
+            transform: scale(1.1, 0.9) translateY(0);
+  }
+  57% {
+    -webkit-transform: scale(1, 1) translateY(-0.03em);
+            transform: scale(1, 1) translateY(-0.03em);
+  }
+  64% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+}
+
+@-webkit-keyframes point2 {
+  0% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    -webkit-transform: scale(1.2, 0.8) translateY(0);
+            transform: scale(1.2, 0.8) translateY(0);
+  }
+  30% {
+    -webkit-transform: scale(0.8, 1.2) translateY(-0.5em);
+            transform: scale(0.8, 1.2) translateY(-0.5em);
+  }
+  50% {
+    -webkit-transform: scale(1.1, 0.9) translateY(0);
+            transform: scale(1.1, 0.9) translateY(0);
+  }
+  57% {
+    -webkit-transform: scale(1, 1) translateY(-0.03em);
+            transform: scale(1, 1) translateY(-0.03em);
+  }
+  64% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+}
+
+@keyframes point2 {
+  0% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    -webkit-transform: scale(1.2, 0.8) translateY(0);
+            transform: scale(1.2, 0.8) translateY(0);
+  }
+  30% {
+    -webkit-transform: scale(0.8, 1.2) translateY(-0.5em);
+            transform: scale(0.8, 1.2) translateY(-0.5em);
+  }
+  50% {
+    -webkit-transform: scale(1.1, 0.9) translateY(0);
+            transform: scale(1.1, 0.9) translateY(0);
+  }
+  57% {
+    -webkit-transform: scale(1, 1) translateY(-0.03em);
+            transform: scale(1, 1) translateY(-0.03em);
+  }
+  64% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+}
+
+@-webkit-keyframes point3 {
+  0% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    -webkit-transform: scale(1.2, 0.8) translateY(0);
+            transform: scale(1.2, 0.8) translateY(0);
+  }
+  30% {
+    -webkit-transform: scale(0.8, 1.2) translateY(-0.5em);
+            transform: scale(0.8, 1.2) translateY(-0.5em);
+  }
+  50% {
+    -webkit-transform: scale(1.1, 0.9) translateY(0);
+            transform: scale(1.1, 0.9) translateY(0);
+  }
+  57% {
+    -webkit-transform: scale(1, 1) translateY(-0.03em);
+            transform: scale(1, 1) translateY(-0.03em);
+  }
+  64% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+}
+
+@keyframes point3 {
+  0% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    -webkit-transform: scale(1.2, 0.8) translateY(0);
+            transform: scale(1.2, 0.8) translateY(0);
+  }
+  30% {
+    -webkit-transform: scale(0.8, 1.2) translateY(-0.5em);
+            transform: scale(0.8, 1.2) translateY(-0.5em);
+  }
+  50% {
+    -webkit-transform: scale(1.1, 0.9) translateY(0);
+            transform: scale(1.1, 0.9) translateY(0);
+  }
+  57% {
+    -webkit-transform: scale(1, 1) translateY(-0.03em);
+            transform: scale(1, 1) translateY(-0.03em);
+  }
+  64% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+}
+
+* {
+  margin: 0px auto;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+}
+
+.main {
+  max-width: 1280px;
+  min-height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.bloc__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.bloc__menu--items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  -webkit-transition: all 330ms ease-in-out;
+  transition: all 330ms ease-in-out;
+}
+
+.bloc__menu--items a {
+  text-decoration: none;
+}
+
+.bloc__menu--items a:hover p, .bloc__menu--items a:hover h2, .bloc__menu--items a:hover img {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  opacity: 0.7;
+}
+
+.bloc__menu--items:first-child {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  position: relative;
+  padding-top: 0;
+}
+
+.bloc__menu--items:nth-child(2) {
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.bloc__item {
+  width: 220px;
+  height: 290px;
+  -webkit-box-shadow: 2px 2px 10px grey;
+          box-shadow: 2px 2px 10px grey;
+}
+
+.bloc__item--lanoteenchantee {
+  background-color: #fcdfdb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bloc__item--lanoteenchantee p {
+  color: #400909;
+  font-family: "Devonshire", cursive;
+  font-weight: bold;
+}
+
+.bloc__item--lanoteenchantee h2 {
+  color: #400909;
+  font-family: "segoe print", Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+.bloc__item--lechicalafrancaise {
+  background: #fff5fe;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bloc__item--lechicalafrancaise p {
+  font-family: "Croissant One", cursive;
+  font-size: 12px;
+  background: linear-gradient(120deg, #dc8527, #8f5aff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bloc__item--lechicalafrancaise h2 {
+  color: #c77412;
+  font-family: "javanese text", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.bloc__item--ledelicedespapilles {
+  background: #fbfbfc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bloc__item--ledelicedespapilles p {
+  font-family: "Dancing Script", cursive;
+  font-size: 18px;
+  font-weight: bolder;
+  background: linear-gradient(120deg, #264be2, #178ffb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bloc__item--ledelicedespapilles h2 {
+  color: #0887fb;
+  font-family: "segoe print", Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+
+.bloc__item--lapalettedugout {
+  background: #fdfffd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bloc__item--lapalettedugout p {
+  font-family: "Kaushan Script", cursive;
+  font-size: 16px;
+  background: linear-gradient(120deg, #1b6817, #beff7f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bloc__item--lapalettedugout h2 {
+  color: #72bf56;
+  font-family: "segoe print", Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+
+footer {
+  background-color: #579c87;
+  opacity: 0.95;
+  width: 100%;
+  height: 70px;
+  position: absolute;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+}
+
+footer h3 {
+  font-family: "montserrat", Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: #fcca46;
+}
+
+footer .mentions {
+  text-decoration: none;
+  margin: auto auto auto 40px;
+}
+
+footer .contact {
+  text-decoration: none;
+  margin: auto 40px auto auto;
+}
+
+footer .mentions:hover,
+footer .contact:hover {
+  -webkit-animation: wiggle 800ms ease-in-out;
+          animation: wiggle 800ms ease-in-out;
+}
+
+header {
+  background-color: #579c87;
+  color: #fcca46;
+  width: 100%;
+  height: 90px;
+  font-family: "montserrat", Arial, Helvetica, sans-serif;
+  letter-spacing: -0.1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 1024px) {
+  .bloc__item {
+    width: 190px;
+    height: 260px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .prochainement {
+    width: 350px;
+    height: auto;
+  }
+  .prochainement p {
+    font-size: 15px;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    height: 70px;
+    font-size: 20px;
+  }
+  footer {
+    height: 50px;
+  }
+  footer h3 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .bloc__menu--items {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .bloc__item--lanoteenchantee {
+    margin-bottom: 20px;
+  }
+  .bloc__item--ledelicedespapilles {
+    margin-bottom: 20px;
+  }
+  .prochainement {
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 372px) {
+  .mentions {
+    font-size: 12px;
+  }
+  .contact {
+    font-size: 12px;
+  }
+}
+
+.prochainement {
+  background-color: #579c87;
+  color: #fcca46;
+  opacity: 0.95;
+  width: 450px;
+  height: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 10px;
+}
+
+.prochainement p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 70px;
+  font-family: "montserrat", Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  position: relative;
+}
+
+.prochainement .point1 {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #fcca46;
+  right: -20px;
+  top: 35px;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: point1;
+          animation-name: point1;
+  -webkit-animation-fill-mode: none;
+          animation-fill-mode: none;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
+          animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
+}
+
+.prochainement .point2 {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #fcca46;
+  right: -35px;
+  top: 35px;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: point2;
+          animation-name: point2;
+  -webkit-animation-fill-mode: none;
+          animation-fill-mode: none;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
+          animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
+}
+
+.prochainement .point3 {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #fcca46;
+  right: -50px;
+  top: 35px;
+  -webkit-animation-delay: 0.45s;
+          animation-delay: 0.45s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-fill-mode: none;
+          animation-fill-mode: none;
+  -webkit-animation-name: point3;
+          animation-name: point3;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
+          animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
+}
+/*# sourceMappingURL=style.css.map */

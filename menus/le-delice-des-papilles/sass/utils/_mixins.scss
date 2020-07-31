@@ -1,0 +1,10 @@
+@mixin degrade_ledelicedespapilles {
+  background: linear-gradient(
+    120deg,
+    $couleur_degrade_violet,
+    $couleur_degrade_bleue
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+

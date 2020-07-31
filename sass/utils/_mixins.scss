@@ -1,0 +1,29 @@
+@mixin degrade_lechicalafrancaise {
+  background: linear-gradient(
+    120deg,
+    $couleur_degrade_orange,
+    $couleur_degrade_violette
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@mixin degrade_ledelicedespapilles {
+  background: linear-gradient(
+    120deg,
+    $couleur_degrade_violet,
+    $couleur_degrade_bleue
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@mixin degrade_lapalettedugout {
+  background: linear-gradient(
+    120deg,
+    $couleur_degrade_vertfoncee,
+    $couleur_degrade_vertclaire
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

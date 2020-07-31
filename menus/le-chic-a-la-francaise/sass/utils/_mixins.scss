@@ -1,0 +1,10 @@
+@mixin degrade_lechicalafrancaise {
+  background: linear-gradient(
+    120deg,
+    $couleur_degrade_orange,
+    $couleur_degrade_violette
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+

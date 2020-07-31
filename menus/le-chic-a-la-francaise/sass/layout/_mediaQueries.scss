@@ -1,0 +1,127 @@
+@media screen and (max-width: 785px) {
+  .titre_menus {
+    & img {
+      width: 130px;
+      height: auto;
+    }
+
+    & a {
+      font-size: 14px;
+    }
+  }
+}
+@media screen and (max-width: 680px) {
+  .entrées,
+  .plats,
+  .desserts {
+    & .entrée,
+    .plat {
+      & .prix {
+        & p {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 650px) {
+  section {
+    & h2 {
+      font-size: 25px;
+      margin-bottom: 30px;
+    }
+  }
+
+  footer {
+    & .mentions {
+      font-size: 12px;
+    }
+
+    & .contact {
+      font-size: 12px;
+    }
+  }
+
+  .titre_menus {
+    margin-bottom: 15px;
+    text-align: center;
+    & img {
+      width: 70px;
+    }
+  }
+}
+
+@media screen and (max-width: 510px) {
+  section{
+    padding: 20px;
+  }
+  .titre_menus {
+    margin: 0;
+    & a {
+      font-size: 12px;
+    }
+  }
+  .entrées,
+  .plats,
+  .desserts {
+    & .entrée,
+    .plat,
+    .dessert {
+      flex-direction: column;
+      justify-content: center;
+
+      & .description {
+        display: flex;
+        margin-bottom: 10px;
+
+        & p {
+          width: 100%;
+          text-align: center;
+        }
+      }
+      & .prix {
+        margin-bottom: 0px;
+      }
+    }
+  }
+  .dessert {
+    & .description {
+      margin: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  section{
+    padding: 5px;
+  }
+  .menus {
+    margin-bottom: 14px;
+
+    & .titre_menus {
+      margin-bottom: 14px;
+
+      & img {
+        width: 50px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 375px) {
+  section {
+    padding: 10px;
+  }
+  .menus {
+    & .titre_menus {
+      & img {
+        width: 25px;
+        height: auto;
+      }
+
+      & a {
+        font-size: 12px;
+      }
+    }
+  }
+}

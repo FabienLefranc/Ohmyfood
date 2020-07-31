@@ -1,0 +1,145 @@
+@media screen and (max-width: 750px) {
+  .menus {
+    .titre_menus {
+      & img {
+        width: 130px;
+        height: auto;
+        margin: 0;
+      }
+    }
+    .titre-menu {
+      margin: 0;
+    }
+  }
+}
+@media screen and (max-width: 650px) {
+  .menus {
+    .titre_menus {
+      & img {
+        width: 100px;
+        flex: 0.5;
+      }
+    }
+    .titre-menu a {
+      font-size: 14px;
+    }
+  }
+  body {
+    & p {
+      font-size: 10px;
+    }
+  }
+  .entrées,
+  .plats,
+  .desserts {
+    & .entrée,
+    .plat {
+      & .prix {
+        & p {
+          font-size: 12px;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 550px) {
+  section {
+    & h2 {
+      font-size: 25px;
+      margin-bottom: 30px;
+    }
+  }
+
+  footer {
+    & .mentions {
+      font-size: 12px;
+    }
+
+    & .contact {
+      font-size: 12px;
+    }
+  }
+  .menus {
+    margin-bottom: 18px;
+    .titre_menus {
+      margin-bottom: 15px;
+      & img {
+        width: 70px;
+        flex: 0.2;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .entrées,
+  .plats,
+  .desserts {
+    & .entrée,
+    .plat,
+    .dessert {
+      flex-direction: column;
+      justify-content: center;
+
+      & .description {
+        display: flex;
+
+        & p {
+          width: 100%;
+          text-align: center;
+        }
+      }
+      & .prix {
+        margin-bottom: 0px;
+      }
+    }
+  }
+  .dessert {
+    & .description {
+      margin: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .titre_section {
+    & img {
+      width: 25px;
+      height: auto;
+    }
+
+    & h2 {
+      font-size: 18px;
+    }
+  }
+  .menus {
+    margin-bottom: 14px;
+
+    & .titre_menus {
+      margin-bottom: 14px;
+
+      & img {
+        width: 50px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 375px) {
+    section{
+        padding:10px;
+    }
+  .menus {
+    & .titre_menus {
+      & img {
+        width: 25px;
+        height: auto;
+      }
+
+      & a {
+        font-size: 12px;
+      }
+    }
+  }
+}

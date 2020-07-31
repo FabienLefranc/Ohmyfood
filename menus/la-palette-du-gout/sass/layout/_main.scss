@@ -1,0 +1,11 @@
+/* ----MAIN ---- */
+
+main {
+  & h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    color: $couleur_noire;
+    margin-bottom: 15px;
+  }
+}

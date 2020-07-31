@@ -1,0 +1,195 @@
+@media screen and (max-width: 750px) {
+  .menus {
+    .titre_menus {
+      & img {
+        width: 130px;
+        height: auto;
+        margin: 0;
+      }
+    }
+    .titre-menu {
+      margin: 0 auto;
+    }
+  }
+}
+@media screen and (max-width: 650px) {
+  .menus {
+    .titre_menus {
+      & img {
+        width: 100px;
+      }
+    }
+    .titre-menu a {
+      font-size: 14px;
+    }
+  }
+  body {
+    & p {
+      font-size: 10px;
+  }
+  }
+  .entrées,
+  .plats,
+  .desserts {
+    & .entrée,
+      .plat {
+       & .prix {
+           & p {
+              font-size: 12px;
+              font-weight: bold;
+          }
+       }
+    }
+  }
+}
+
+@media screen and (max-width: 550px){
+  .titre_section {
+      & img {
+        width: 40px;
+        height: auto;
+      }
+
+      & h2 {
+        font-size: 25px;
+      }
+  }
+  .fin_section {
+
+      & .svg_right {
+        & img {
+          width: 20px;
+          height: auto;
+        }
+      }
+
+      & h3 {
+        font-size: 20px;
+      }
+  }
+  footer {
+
+    & .mentions{
+      font-size: 12px;
+    }
+
+    & .contact{
+      font-size: 12px;
+    }
+  }
+}
+
+@media screen and (max-width: 510px){
+  .menus {
+    margin-bottom: 18px;
+    .titre_menus {
+      margin-bottom: 15px;
+      & img {
+        width: 70px;
+      }
+    }
+  }
+  .entrées,
+  .plats,
+  .desserts {
+
+     & .entrée,
+       .plat {
+         flex-direction: column;
+         justify-content: center;
+     
+
+         & .description {
+           display: flex;
+
+            & p {
+                width: 100%;
+                text-align: center;
+            }
+          }
+
+         & .prix {
+              width: 100%;
+              text-align: center;
+              margin-bottom: 20px;
+           
+         }
+     }
+  }
+    .dessert{
+      & .description {
+        width: 100%;
+        text-align: center;
+        margin: 10px auto;
+      } 
+    }
+}
+
+@media screen and (max-width: 430px){
+  .titre_section {
+      & img {
+        width: 25px;
+        height: auto;
+      }
+
+      & h2 {
+        font-size: 18px;
+      }
+  }
+  .menus {
+    margin-bottom: 14px;
+
+    & .titre_menus {
+      margin-bottom: 14px;
+
+      & img {
+        width: 50px;
+      }
+    }
+  }
+  .fin_section {
+
+      & .svg_right {
+
+        & img {
+          width: 15px;
+          height: auto;
+        }
+      }
+
+       & h3 {
+        font-size: 16px;
+      }
+  }
+}
+@media screen and (max-width: 375px){
+  .menus {
+    & .titre_menus {
+
+       & img {
+        width:30px;
+        height: auto;
+       }
+
+       & a {
+         font-size: 12px;
+       }
+    }
+  }
+  
+  .fin_section {
+
+      & .svg_right {
+        width: 30%;
+          & img {
+            width: 15px;
+            height: auto;
+          }
+      }
+
+       & h3 {
+         width:70%;
+         font-size: 16px;
+      }
+  }
+}
