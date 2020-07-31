@@ -14,11 +14,7 @@
 }
 @media screen and (max-width: 650px) {
   .menus {
-    .titre_menus {
-      & img {
-        width: 100px;
-      }
-    }
+
     .titre-menu a {
       font-size: 14px;
     }
@@ -43,16 +39,14 @@
   }
 }
 
-@media screen and (max-width: 550px){
-  .titre_section {
-      & img {
-        width: 40px;
+@media screen and (max-width: 580px){
+  .menus{
+    & .titre_menus{
+      & img{
+        width: 110px;
         height: auto;
       }
-
-      & h2 {
-        font-size: 25px;
-      }
+    }
   }
   .fin_section {
 
@@ -79,13 +73,13 @@
   }
 }
 
-@media screen and (max-width: 510px){
+@media screen and (max-width: 540px){
   .menus {
     margin-bottom: 18px;
     .titre_menus {
       margin-bottom: 15px;
-      & img {
-        width: 70px;
+      & img{
+        width: 90px;
       }
     }
   }
@@ -101,6 +95,7 @@
 
          & .description {
            display: flex;
+           margin-bottom: 15px;;
 
             & p {
                 width: 100%;
@@ -120,30 +115,18 @@
       & .description {
         width: 100%;
         text-align: center;
-        margin: 10px auto;
+        margin: 15px auto;
       } 
     }
 }
 
-@media screen and (max-width: 430px){
-  .titre_section {
-      & img {
-        width: 25px;
-        height: auto;
-      }
-
-      & h2 {
-        font-size: 18px;
-      }
-  }
+@media screen and (max-width: 480px){
   .menus {
     margin-bottom: 14px;
-
-    & .titre_menus {
+    .titre_menus {
       margin-bottom: 14px;
-
-      & img {
-        width: 50px;
+      & img{
+        width: 70px;
       }
     }
   }
@@ -162,21 +145,24 @@
       }
   }
 }
-@media screen and (max-width: 375px){
+@media screen and (max-width: 430px){
+  .titre_section {
+    & img{
+      width: 35px;
+      height: auto;
+    }
+    & h2 {
+      font-size: 25px;
+      margin-top: 15px;
+    }
+  }
   .menus {
     & .titre_menus {
-
-       & img {
-        width:30px;
-        height: auto;
-       }
-
        & a {
          font-size: 12px;
        }
     }
   }
-  
   .fin_section {
 
       & .svg_right {
@@ -191,5 +177,41 @@
          width:70%;
          font-size: 16px;
       }
+  }
+}
+
+@media screen and (max-width: 410px){
+  .menus {
+    & .titre_menus {
+       & img {
+         width: 50px;
+       }
+    }
+  }
+}
+
+@media screen and (max-width: 360px){
+  .menus {
+    & .titre_menus {
+       & a {
+         font-size: 11px;
+       }
+       & img{
+         width: 40px;
+       }
+    }
+  }
+}
+
+@media screen and (max-width: 320px){
+  .menus {
+    & .titre_menus {
+       & a {
+         font-size: 11px;
+       }
+       & img{
+         width: 35px;
+       }
+    }
   }
 }
