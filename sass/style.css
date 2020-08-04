@@ -85,11 +85,11 @@
     -webkit-transform: scale(1.1, 0.9) translateY(0);
             transform: scale(1.1, 0.9) translateY(0);
   }
-  57% {
+  55% {
     -webkit-transform: scale(1, 1) translateY(-0.03em);
             transform: scale(1, 1) translateY(-0.03em);
   }
-  64% {
+  65% {
     -webkit-transform: scale(1, 1) translateY(0);
             transform: scale(1, 1) translateY(0);
   }
@@ -116,11 +116,11 @@
     -webkit-transform: scale(1.1, 0.9) translateY(0);
             transform: scale(1.1, 0.9) translateY(0);
   }
-  57% {
+  55% {
     -webkit-transform: scale(1, 1) translateY(-0.03em);
             transform: scale(1, 1) translateY(-0.03em);
   }
-  64% {
+  65% {
     -webkit-transform: scale(1, 1) translateY(0);
             transform: scale(1, 1) translateY(0);
   }
@@ -147,11 +147,11 @@
     -webkit-transform: scale(1.1, 0.9) translateY(0);
             transform: scale(1.1, 0.9) translateY(0);
   }
-  57% {
+  55% {
     -webkit-transform: scale(1, 1) translateY(-0.03em);
             transform: scale(1, 1) translateY(-0.03em);
   }
-  64% {
+  65% {
     -webkit-transform: scale(1, 1) translateY(0);
             transform: scale(1, 1) translateY(0);
   }
@@ -178,11 +178,11 @@
     -webkit-transform: scale(1.1, 0.9) translateY(0);
             transform: scale(1.1, 0.9) translateY(0);
   }
-  57% {
+  55% {
     -webkit-transform: scale(1, 1) translateY(-0.03em);
             transform: scale(1, 1) translateY(-0.03em);
   }
-  64% {
+  65% {
     -webkit-transform: scale(1, 1) translateY(0);
             transform: scale(1, 1) translateY(0);
   }
@@ -209,11 +209,11 @@
     -webkit-transform: scale(1.1, 0.9) translateY(0);
             transform: scale(1.1, 0.9) translateY(0);
   }
-  57% {
+  55% {
     -webkit-transform: scale(1, 1) translateY(-0.03em);
             transform: scale(1, 1) translateY(-0.03em);
   }
-  64% {
+  65% {
     -webkit-transform: scale(1, 1) translateY(0);
             transform: scale(1, 1) translateY(0);
   }
@@ -240,11 +240,11 @@
     -webkit-transform: scale(1.1, 0.9) translateY(0);
             transform: scale(1.1, 0.9) translateY(0);
   }
-  57% {
+  55% {
     -webkit-transform: scale(1, 1) translateY(-0.03em);
             transform: scale(1, 1) translateY(-0.03em);
   }
-  64% {
+  65% {
     -webkit-transform: scale(1, 1) translateY(0);
             transform: scale(1, 1) translateY(0);
   }
@@ -598,8 +598,8 @@ header {
           animation-fill-mode: none;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
-  -webkit-animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
-          animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
+  -webkit-animation-timing-function: cubic-bezier(0.28, 0.85, 0.42, 1);
+          animation-timing-function: cubic-bezier(0.28, 0.85, 0.42, 1);
 }
 
 .prochainement .point2 {
