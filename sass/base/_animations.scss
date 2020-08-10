@@ -1,98 +1,228 @@
+/* effet wiggle footer */
+
 @keyframes wiggle {
-    0% {
-      transform: rotate(0deg);
-    }
-    30% {
-      transform: rotate(-2deg);
-    }
-    40% {
-      transform: rotate(2deg);
-    }
-    50% {
-      transform: rotate(-2deg);
-    }
-    60% {
-      transform: rotate(2deg);
-    }
-    70% {
-      transform: rotate(-2deg);
-    }
-    80% {
-      transform: rotate(2deg);
-    }
-    100% {
-      transform: rotate(0deg);
-    }
+  0% {
+    transform: rotate(0deg);
   }
+  30% {
+    transform: rotate(-2deg);
+  }
+  40% {
+    transform: rotate(2deg);
+  }
+  50% {
+    transform: rotate(-2deg);
+  }
+  60% {
+    transform: rotate(2deg);
+  }
+  70% {
+    transform: rotate(-2deg);
+  }
+  80% {
+    transform: rotate(2deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
 
-  @keyframes point1 {
-    0% {
-      transform: scale(1, 1) translateY(0);
-    }
-    10% {
-      transform: scale(1.2, 0.8) translateY(0);
-    }
-    30% {
-      transform: scale(0.8, 1.2) translateY(-0.5em);
-    }
-    50% {
-      transform: scale(1.1, 0.9) translateY(0);
-    }
-    55% {
-      transform: scale(1, 1) translateY(-0.03em);
-    }
-    65% {
-      transform: scale(1, 1) translateY(0);
-    }
-    100% {
-      transform: scale(1, 1) translateY(0);
-    }
-  }
+/* effet points prochainement */
 
-  @keyframes point2 {
-    0% {
-      transform: scale(1, 1) translateY(0);
-    }
-    10% {
-      transform: scale(1.2, 0.8) translateY(0);
-    }
-    30% {
-      transform: scale(0.8, 1.2) translateY(-0.5em);
-    }
-    50% {
-      transform: scale(1.1, 0.9) translateY(0);
-    }
-    55% {
-      transform: scale(1, 1) translateY(-0.03em);
-    }
-    65% {
-      transform: scale(1, 1) translateY(0);
-    }
-    100% {
-      transform: scale(1, 1) translateY(0);
-    }
+@keyframes point1 {
+  0% {
+    transform: scale(1, 1) translateY(0);
   }
+  10% {
+    transform: scale(1.2, 0.8) translateY(0);
+  }
+  30% {
+    transform: scale(0.8, 1.2) translateY(-0.5em);
+  }
+  50% {
+    transform: scale(1.1, 0.9) translateY(0);
+  }
+  55% {
+    transform: scale(1, 1) translateY(-0.03em);
+  }
+  65% {
+    transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    transform: scale(1, 1) translateY(0);
+  }
+}
 
-  @keyframes point3 {
-    0% {
-      transform: scale(1, 1) translateY(0);
-    }
-    10% {
-      transform: scale(1.2, 0.8) translateY(0);
-    }
-    30% {
-      transform: scale(0.8, 1.2) translateY(-0.5em);
-    }
-    50% {
-      transform: scale(1.1, 0.9) translateY(0);
-    }
-    55% {
-      transform: scale(1, 1) translateY(-0.03em);
-    }
-    65% {
-      transform: scale(1, 1) translateY(0);
-    }
-    100% {
-      transform: scale(1, 1) translateY(0);
+@keyframes point2 {
+  0% {
+    transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    transform: scale(1.2, 0.8) translateY(0);
+  }
+  30% {
+    transform: scale(0.8, 1.2) translateY(-0.5em);
+  }
+  50% {
+    transform: scale(1.1, 0.9) translateY(0);
+  }
+  55% {
+    transform: scale(1, 1) translateY(-0.03em);
+  }
+  65% {
+    transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    transform: scale(1, 1) translateY(0);
+  }
+}
+
+@keyframes point3 {
+  0% {
+    transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    transform: scale(1.2, 0.8) translateY(0);
+  }
+  30% {
+    transform: scale(0.8, 1.2) translateY(-0.5em);
+  }
+  50% {
+    transform: scale(1.1, 0.9) translateY(0);
+  }
+  55% {
+    transform: scale(1, 1) translateY(-0.03em);
+  }
+  65% {
+    transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    transform: scale(1, 1) translateY(0);
+  }
+}
+
+/* sous- lignage */
+
+.titreMenu {
+  & a {
+    font-size: 14px;
+    text-decoration: none;
+    position: relative;
+    font-weight: bold;
+  }
+  &--note {
+    & a {
+      color: $couleur_marron;
     }
   }
+  &--palette {
+    & a {
+      color: $couleur_noire;
+    }
+  }
+  &--chic {
+    & a {
+      color: $couleur_orange;
+      letter-spacing: 1px;
+    }
+  }
+  &--delice {
+    & a {
+      color: $couleur_noire;
+    }
+  }
+  & .translation2 {
+    &--chic {
+      color: $couleur_brun_rose;
+      letter-spacing: 1px;
+    }
+    &--delice {
+      color: $couleur_noire;
+      font-size: 14px;
+    }
+  }
+  & .translation3 {
+    &--chic {
+      color: $couleur_violette;
+      letter-spacing: 1px;
+    }
+    &--delice {
+      color: $couleur_noire;
+      font-size: 14px;
+    }
+  }
+}
+
+.titreMenu {
+  & a::before {
+    content: "";
+    width: 0%;
+    position: absolute;
+    height: 3px;
+    bottom: -3px;
+    left: 0%;
+    border-radius: 2px;
+    transition: all 500ms ease;
+
+    &--chic {
+      & a::before {
+        background-color: $couleur_orange;
+      }
+    }
+    &--delice {
+      & a::before {
+        background-color: $couleur_violette;
+      }
+    }
+  }
+}
+.titreMenu {
+  & a:hover::before {
+    right: 100%;
+    width: 100%;
+  }
+  &--note {
+    & a:hover::before {
+      background-color: $couleur_marron;
+    }
+  }
+  &--palette {
+    & a:hover::before {
+      background-color: $couleur_verte-text;
+    }
+  }
+  &--chic {
+    & .translation {
+      &--chic:hover::before {
+        background-color: $couleur_orange;
+      }
+    }
+    & .translation2 {
+      &--chic:hover::before {
+        background-color: $couleur_brun_rose;
+      }
+    }
+    & .translation3 {
+      &--chic:hover::before {
+        background-color: $couleur_violette;
+      }
+    }
+  }
+  &--delice {
+    & .translation {
+      &--delice:hover::before {
+        background-color: $couleur_bleu_foncee;
+      }
+    }
+    & .translation2 {
+      &--delice:hover::before {
+        background-color: $couleur_bleu_moyen;
+      }
+    }
+    & .translation3 {
+      &--delice:hover::before {
+        background-color: $couleur_bleue;
+      }
+    }
+  }
+}

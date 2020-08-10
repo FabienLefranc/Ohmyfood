@@ -1,0 +1,303 @@
+/* ---- Section ---- */
+
+.blocSection {
+  margin: 0 auto 30px auto;
+  width: 80%;
+  height: 100%;
+  padding: 10px 40px;
+  box-shadow: 0px 0px 10px 2px #d0cccc;
+
+  &--note {
+    background-color: $couleur_corail;
+  }
+
+  &--chic {
+    background-color: $couleur_rose;
+  }
+
+  &--palette {
+    background-color: $couleur_vert_pale;
+  }
+
+  &--delice {
+    background-color: $couleur_beige;
+  }
+}
+
+/* Titre section */
+
+.titreSection {
+  & h2 {
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+  }
+
+  &--note {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+
+    & h2 {
+      color: $couleur_marron;
+      font-family: "devonshire", Arial, Helvetica, sans-serif;
+      margin-top: 10px;
+    }
+  }
+
+  &--chic {
+    & h2 {
+      font-family: "Croissant one", Arial, Helvetica, sans-serif;
+      @include degrade_lechicalafrancaise;
+      margin-bottom: 30px;
+    }
+  }
+
+  &--palette {
+    & h2 {
+      font-family: "Kaushan Script", Arial, Helvetica, sans-serif;
+      @include degrade_lapalettedugout;
+      font-size: 40px;
+      margin-bottom: 30px;
+    }
+  }
+
+  &--delice {
+    & h2 {
+      font-family: "Dancing Script", Arial, Helvetica, sans-serif;
+      @include degrade_ledelicedespapilles;
+      font-size: 50px;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+/* menus */
+
+.menus {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 20px;
+
+  &--note {
+    font-family: "segoe print", Arial, Helvetica, sans-serif;
+    color: $couleur_marron;
+  }
+  &--palette,
+  &--delice {
+    font-family: "segoe print", Arial, Helvetica, sans-serif;
+    color: $couleur_noire;
+  }
+  &--chic {
+    font-family: "cambria math", Arial, Helvetica, sans-serif;
+    color: $couleur_noire;
+  }
+}
+
+.titreMenus {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+
+  & svg {
+    width: 170px;
+    height: auto;
+    margin: 0;
+  }
+  & .titreMenu {
+    text-align: center;
+  }
+}
+
+/* Entrées, plats et desserts */
+
+.entrées,
+.plats,
+.desserts {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.entrée,
+.plat,
+.dessert {
+  display: flex;
+  width: 100%;
+  margin: 5px auto;
+
+  &--chic,
+  &--delice,
+  &--palette {
+    width: 80%;
+  }
+}
+.entrée {
+  &--chic {
+    color: $couleur_orange;
+  }
+}
+.plat {
+  &--chic {
+    color: $couleur_brun_rose;
+  }
+}
+.dessert {
+  &--chic {
+    color: $couleur_violette;
+  }
+}
+.description {
+  width: 90%;
+  font-weight: bold;
+}
+
+.prix {
+  width: 10%;
+  text-align: right;
+
+  & p {
+    font-size: 16px;
+    font-weight: bold;
+  }
+}
+
+.dessert {
+  & .description {
+    width: 100%;
+    text-align: left;
+    margin: 5px auto;
+  }
+}
+
+/* --- fin menu la note enchantée--- */
+
+.finSection {
+  display: flex;
+
+  & .image {
+    width: 40%;
+    text-align: end;
+    margin-right: 10px;
+  }
+  & .titreFinSection {
+    width: 60%;
+    margin-left: 10px;
+    color: $couleur_marron;
+  }
+}
+
+/* media queries */
+
+@media screen and (max-width: 760px) {
+  .titreMenus {
+    & svg {
+      width: 130px;
+    }
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .titreMenus {
+    & svg {
+      width: 110px;
+    }
+  }
+}
+
+@media screen and (max-width: 615px) {
+  .titreMenus {
+    & svg {
+      width: 90px;
+    }
+  }
+}
+@media screen and (max-width: 560px) {
+  .titreSection {
+    & h2 {
+      font-size: 20px;
+    }
+  }
+  .entrée,
+  .plat,
+  .dessert {
+    display: flex;
+    flex-direction: column;
+
+    & .description {
+      text-align: center;
+      margin-bottom: 10px;
+      font-weight: 500;
+    }
+    & .prix {
+      font-weight: 500;
+    }
+  }
+  .blocSection {
+    padding: 10px;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .titreMenus {
+    & svg {
+      width: 70px;
+    }
+  }
+  .prix {
+    & p {
+      font-size: 14px;
+    }
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .titreMenus {
+    & svg {
+      width: 50px;
+    }
+  }
+  .titreMenu {
+    & a {
+      font-size: 12px;
+    }
+  }
+  .finSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    & .image{
+      width: 100%;
+      margin-right: 0;
+      display:flex;
+      justify-content: center;
+    }
+
+    & .titreFinSection {
+      width: 100%;
+      text-align: center;
+    }
+  }
+}
+@media screen and (max-width: 360px) {
+  .titreMenus {
+    & svg {
+      width: 40px;
+    }
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .titreMenus {
+    & svg {
+      width: 30px;
+    }
+  }
+}

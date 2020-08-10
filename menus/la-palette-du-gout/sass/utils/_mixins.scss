@@ -1,9 +1,0 @@
-@mixin degrade_lapalettedugout {
-  background: linear-gradient(
-    120deg,
-    $couleur_degrade_vertfoncee,
-    $couleur_degrade_vertclaire
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
