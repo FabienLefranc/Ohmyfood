@@ -313,11 +313,11 @@
   transition: all 500ms ease;
 }
 
-.titreMenu a::before--chic a::before {
+.titreMenu--chic a::before {
   background-color: #c77412;
 }
 
-.titreMenu a::before--delice a::before {
+.titreMenu--delice a::before {
   background-color: #8f5aff;
 }
 

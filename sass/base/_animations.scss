@@ -163,19 +163,19 @@
     left: 0%;
     border-radius: 2px;
     transition: all 500ms ease;
-
-    &--chic {
-      & a::before {
-        background-color: $couleur_orange;
-      }
+  }
+  &--chic {
+    & a::before {
+      background-color: $couleur_orange;
     }
-    &--delice {
-      & a::before {
-        background-color: $couleur_violette;
-      }
+  }
+  &--delice {
+    & a::before {
+      background-color: $couleur_violette;
     }
   }
 }
+
 .titreMenu {
   & a:hover::before {
     right: 100%;
