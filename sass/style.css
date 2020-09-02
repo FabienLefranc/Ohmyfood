@@ -455,6 +455,7 @@ header {
   display: -ms-flexbox;
   display: flex;
   border-radius: 10px;
+  margin-bottom: 150px;
 }
 
 .prochainement p {
@@ -564,12 +565,15 @@ header {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
-  -webkit-transition: all 330ms ease-in-out;
-  transition: all 330ms ease-in-out;
 }
 
 .bloc__menu--items a {
   text-decoration: none;
+}
+
+.bloc__menu--items a:hover {
+  -webkit-transition: all 5000ms ease-in-out;
+  transition: all 5000ms ease-in-out;
 }
 
 .bloc__menu--items a:hover p,
@@ -1094,5 +1098,24 @@ header {
   .titreMenus svg {
     width: 30px;
   }
+}
+
+h2 {
+  text-align: center;
+  margin: 50px auto;
+}
+
+p {
+  text-align: center;
+  font-size: 16px !important;
+}
+
+h2 {
+  text-align: center;
+  margin: 50px auto;
+}
+
+p {
+  text-align: justify;
 }
 /*# sourceMappingURL=style.css.map */

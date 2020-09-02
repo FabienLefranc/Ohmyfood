@@ -9,12 +9,11 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  transition: all 330ms ease-in-out;
-
   & a {
     text-decoration: none;
   }
   & a:hover {
+    transition: all 5000ms ease-in-out; //à revoir
     & p,
     h2,
     svg {
