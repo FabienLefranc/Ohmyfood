@@ -358,6 +358,18 @@
   background-color: #0887fb;
 }
 
+/* Effet fondu grossissement */
+.scale {
+  -webkit-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+}
+
+.scale:hover p, .scale:hover h2, .scale:hover svg {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  opacity: 0.7;
+}
+
 * {
   margin: 0px auto;
   padding: 0px;
@@ -385,7 +397,7 @@ main h2 {
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
   color: #3f3f3f;
   margin-bottom: 15px;
-  margin-top: 30px;
+  margin-top: 15px;
 }
 
 footer {
@@ -569,19 +581,6 @@ header {
 
 .bloc__menu--items a {
   text-decoration: none;
-}
-
-.bloc__menu--items a:hover {
-  -webkit-transition: all 5000ms ease-in-out;
-  transition: all 5000ms ease-in-out;
-}
-
-.bloc__menu--items a:hover p,
-.bloc__menu--items a:hover h2,
-.bloc__menu--items a:hover svg {
-  -webkit-transform: scale(1.3);
-          transform: scale(1.3);
-  opacity: 0.7;
 }
 
 .bloc__menu--items:first-child {
@@ -1105,17 +1104,18 @@ h2 {
   margin: 50px auto;
 }
 
-p {
+.lienMail {
   text-align: center;
   font-size: 16px !important;
 }
 
-h2 {
+.lorem1 {
   text-align: center;
   margin: 50px auto;
 }
 
-p {
+.lorem {
   text-align: justify;
+  margin: auto 20px;
 }
 /*# sourceMappingURL=style.css.map */
