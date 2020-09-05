@@ -470,7 +470,7 @@ header {
   margin-bottom: 150px;
 }
 
-.prochainement p {
+.prochainement h3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
