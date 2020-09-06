@@ -8,5 +8,11 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 25px;
+  & a{
+    text-decoration: none;
+    color: $couleur_jaune_principale;
+    font-size: 25px;
+    font-family: "montserrat", Arial, Helvetica, sans-serif;
+    cursor: pointer;
+  }
 }

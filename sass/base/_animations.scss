@@ -104,57 +104,75 @@
 /* sous- lignage */
 
 .titreMenu {
-  & a {
+  & a,
+  h3 {
     font-size: 14px;
     text-decoration: none;
     position: relative;
     font-weight: bold;
   }
   &--note {
-    & a {
+    & a,
+    h3 {
       color: $couleur_marron;
     }
   }
   &--palette {
-    & a {
+    & a,
+    h3 {
       color: $couleur_noire;
     }
   }
   &--chic {
-    & a {
+    & a,
+    h3 {
       color: $couleur_orange;
       letter-spacing: 1px;
     }
   }
   &--delice {
-    & a {
+    & a,
+    h3 {
       color: $couleur_noire;
     }
   }
   & .translation2 {
     &--chic {
-      color: $couleur_brun_rose;
-      letter-spacing: 1px;
+      & a,
+      h3 {
+        color: $couleur_brun_rose;
+        letter-spacing: 1px;
+      }
     }
     &--delice {
-      color: $couleur_noire;
-      font-size: 14px;
+      & a,
+      h3 {
+        color: $couleur_noire;
+        font-size: 14px;
+      }
     }
   }
   & .translation3 {
     &--chic {
-      color: $couleur_violette;
-      letter-spacing: 1px;
+      & a,
+      h3 {
+        color: $couleur_violette;
+        letter-spacing: 1px;
+      }
     }
     &--delice {
-      color: $couleur_noire;
-      font-size: 14px;
+      & a,
+      h3 {
+        color: $couleur_noire;
+        font-size: 14px;
+      }
     }
   }
 }
 
 .titreMenu {
-  & a::before {
+  & a::before,
+  h3::before {
     content: "";
     width: 0%;
     position: absolute;
@@ -165,63 +183,80 @@
     transition: all 500ms ease;
   }
   &--chic {
-    & a::before {
+    & a::before,
+    h3::before {
       background-color: $couleur_orange;
     }
   }
   &--delice {
-    & a::before {
+    & a::before,
+    h3::before {
       background-color: $couleur_violette;
     }
   }
 }
 
 .titreMenu {
-  & a:hover::before {
+  & a:hover::before,
+  h3:hover::before {
     right: 100%;
     width: 100%;
   }
   &--note {
-    & a:hover::before {
+    & a:hover::before,
+    h3:hover::before {
       background-color: $couleur_marron;
     }
   }
   &--palette {
-    & a:hover::before {
+    & a:hover::before,
+    h3:hover::before {
       background-color: $couleur_verte-text;
     }
   }
   &--chic {
     & .translation {
-      &--chic:hover::before {
-        background-color: $couleur_orange;
+      &--chic{
+        & a:hover::before, h3:hover::before {
+          background-color: $couleur_orange;
+        } 
       }
     }
     & .translation2 {
-      &--chic:hover::before {
-        background-color: $couleur_brun_rose;
+      &--chic{
+        & a:hover::before, h3:hover::before {
+          background-color: $couleur_brun_rose;
+        }
       }
     }
     & .translation3 {
-      &--chic:hover::before {
+      &--chic{
+        & a:hover::before, h3:hover::before {
         background-color: $couleur_violette;
       }
     }
   }
+}
   &--delice {
     & .translation {
-      &--delice:hover::before {
-        background-color: $couleur_bleu_foncee;
+      &--delice{
+        & a:hover::before, h3:hover::before{
+          background-color: $couleur_bleu_foncee;
+        }
       }
     }
     & .translation2 {
-      &--delice:hover::before {
-        background-color: $couleur_bleu_moyen;
+      &--delice{
+        & a:hover::before, h3:hover::before{
+          background-color: $couleur_bleu_moyen;
+        }
       }
     }
     & .translation3 {
-      &--delice:hover::before {
-        background-color: $couleur_bleue;
+      &--delice{
+        & a:hover::before, h3:hover::before {
+          background-color: $couleur_bleue;
+        }
       }
     }
   }
@@ -233,8 +268,10 @@
   transition: all 2s ease-in-out;
 }
 .scale:hover {
-  & p, h2, svg {
-     transform: scale(1.3);
-     opacity: 0.7;
+  & p,
+  h2,
+  svg {
+    transform: scale(1.3);
+    opacity: 0.7;
   }
 }

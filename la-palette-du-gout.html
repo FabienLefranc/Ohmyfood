@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Venez découvrir le menu gastronomique du restaurant parisien La palette du goût" />
+    <meta
+      name="description"
+      content="Venez découvrir le menu gastronomique du restaurant parisien La palette du goût"
+    />
     <link rel="stylesheet" href="sass/style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Dancing+Script&family=Kaushan+Script&display=swap"
@@ -13,148 +16,231 @@
   </head>
   <body>
     <header>
-      <h1>ohmyfood</h1>
+      <a href="index.html">
+        <h1>ohmyfood</h1>
+      </a>
     </header>
 
     <main>
-         <h2>La palette du goût</h2>
+      <h2>La palette du goût</h2>
 
-        <div class="blocSection blocSection--palette">
-
+      <div class="blocSection blocSection--palette">
+        <section>
           <div class="titreSection titreSection--palette">
             <h2>La palette du goût</h2>
           </div>
-        
-           
+        </section>
 
-               <div class="menus menus--palette">
-
-                    <div class="titreMenus titreMenus--palette">
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="391" height="14" viewBox="0 0 391 14">
-                        <image id="Calque_1" data-name="Calque 1" width="391" height="14" xlink:href="data:img/png;base64,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"/>
-                         </svg>
-                        <div class="titreMenu titreMenu--palette">
-                          <a class="translation translation--palette" href="#">Esquisse</a>
-                        </div>
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="390" height="14" viewBox="0 0 390 14">
-                        <image id="Calque_2" data-name="Calque 2" width="390" height="14" xlink:href="data:img/png;base64,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"/>
-                        </svg>
-                    </div>
-
-              
-                    <div class="entrées entrées--palette">
-                      <div class="entrée entrée--palette">
-                        <div class="description description--palette">
-                          <p>
-                            Fricassée d'escargot au piment d'espelette
-                          </p>
-                        </div>
-                        <div class="prix prix--palette"><p>60€</p></div>
-                      </div>
-
-                      <div class="entrée entrée--palette">
-                        <div class="description description--palette">
-                          <p>Oeuf au plat assaisonné à la truffe sur lit de caviar</p>
-                        </div>
-                        <div class="prix prix--palette"><p>55€</p></div>
-                      </div>
-
-                      <div class="entrée entrée--palette">
-                        <div class="description description--palette">
-                          <p>Foie gras de canard mi-cuit et ses copeaux de truffe noire</p>
-                        </div>
-                        <div class="prix prix--palette"><p>65€</p></div>
-                      </div>            
-                    </div>
-
+        <section>
+          <div class="menus menus--palette">
+            <div class="titreMenus titreMenus--palette">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="391"
+                height="14"
+                viewBox="0 0 391 14"
+              >
+                <image
+                  id="Calque_1"
+                  data-name="Calque 1"
+                  width="391"
+                  height="14"
+                  xlink:href="data:img/png;base64,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"
+                />
+              </svg>
+              <div class="titreMenu titreMenu--palette">
+                <a class="translation translation--palette" href="#"
+                  ><h3>Esquisse</h3></a
+                >
               </div>
-            
-              <div class="menus menus--palette">
-                    <div class="titreMenus titreMenus--palette">
-                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="391" height="14" viewBox="0 0 391 14">
-                            <image id="Calque_3" data-name="Calque 3" width="391" height="14" xlink:href="data:img/png;base64,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"/>
-                            </svg>
-                            <div class="titreMenu titreMenu--palette">
-                              <a class="translation translation--palette" href="#">Oeuvre de maître</a>
-                            </div>
-                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="390" height="14" viewBox="0 0 390 14">
-                            <image id="Calque_4" data-name="Calque 4" width="390" height="14" xlink:href="data:img/png;base64,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"/>
-                            </svg>
-                   </div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="390"
+                height="14"
+                viewBox="0 0 390 14"
+              >
+                <image
+                  id="Calque_2"
+                  data-name="Calque 2"
+                  width="390"
+                  height="14"
+                  xlink:href="data:img/png;base64,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"
+                />
+              </svg>
+            </div>
 
-                  <div class="plats plats--palette">
-                      <div class="plat plat--palette">
-                        <div class="description description--palette">
-                          <p>
-                            Filet de boeuf aux herbes accompagné de sa ribambelle de légumes
-                          </p>
-                        </div>
-                        <div class="prix prix--palette"><p>70€</p></div>
-                      </div>
+            <div class="entrées entrées--palette">
+              <div class="entrée entrée--palette">
+                <div class="description description--palette">
+                  <p>Fricassée d'escargot au piment d'espelette</p>
+                </div>
+                <div class="prix prix--palette"><p>60€</p></div>
+              </div>
 
-                      <div class="plat plat--palette">
-                        <div class="description description--palette">
-                          <p>Parmentier de queue de boeuf à la truffe noire sur sa purée de panais</p>
-                        </div>
-                        <div class="prix prix--palette"><p>85€</p></div>
-                      </div>
+              <div class="entrée entrée--palette">
+                <div class="description description--palette">
+                  <p>Oeuf au plat assaisonné à la truffe sur lit de caviar</p>
+                </div>
+                <div class="prix prix--palette"><p>55€</p></div>
+              </div>
 
-                      <div class="plat plat--palette">
-                        <div class="description description--palette">
-                          <p>
-                            Filet de Turbot aux agrumes
-                          </p>
-                        </div>
-                        <div class="prix prix--palette"><p>125€</p></div>
-                      </div>
+              <div class="entrée entrée--palette">
+                <div class="description description--palette">
+                  <p>
+                    Foie gras de canard mi-cuit et ses copeaux de truffe noire
+                  </p>
+                </div>
+                <div class="prix prix--palette"><p>65€</p></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="menus menus--palette">
+            <div class="titreMenus titreMenus--palette">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="391"
+                height="14"
+                viewBox="0 0 391 14"
+              >
+                <image
+                  id="Calque_3"
+                  data-name="Calque 3"
+                  width="391"
+                  height="14"
+                  xlink:href="data:img/png;base64,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"
+                />
+              </svg>
+              <div class="titreMenu titreMenu--palette">
+                <a class="translation translation--palette" href="#"
+                  ><h3>Oeuvre de maître</h3></a
+                >
+              </div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="390"
+                height="14"
+                viewBox="0 0 390 14"
+              >
+                <image
+                  id="Calque_4"
+                  data-name="Calque 4"
+                  width="390"
+                  height="14"
+                  xlink:href="data:img/png;base64,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"
+                />
+              </svg>
+            </div>
+
+            <div class="plats plats--palette">
+              <div class="plat plat--palette">
+                <div class="description description--palette">
+                  <p>
+                    Filet de boeuf aux herbes accompagné de sa ribambelle de
+                    légumes
+                  </p>
+                </div>
+                <div class="prix prix--palette"><p>70€</p></div>
+              </div>
+
+              <div class="plat plat--palette">
+                <div class="description description--palette">
+                  <p>
+                    Parmentier de queue de boeuf à la truffe noire sur sa purée
+                    de panais
+                  </p>
+                </div>
+                <div class="prix prix--palette"><p>85€</p></div>
+              </div>
+
+              <div class="plat plat--palette">
+                <div class="description description--palette">
+                  <p>Filet de Turbot aux agrumes</p>
+                </div>
+                <div class="prix prix--palette"><p>125€</p></div>
+              </div>
+            </div>
+
+            <div class="menus menus--palette">
+              <div class="titreMenus titreMenus--palette">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="391"
+                  height="14"
+                  viewBox="0 0 391 14"
+                >
+                  <image
+                    id="Calque_5"
+                    data-name="Calque 5"
+                    width="391"
+                    height="14"
+                    xlink:href="data:img/png;base64,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"
+                  />
+                </svg>
+                <div class="titreMenu titreMenu--palette">
+                  <a class="translation translation--palette" href="#"
+                    ><h3>Au sommet de l'art</h3></a
+                  >
+                </div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="390"
+                  height="14"
+                  viewBox="0 0 390 14"
+                >
+                  <image
+                    id="Calque_6"
+                    data-name="Calque 6"
+                    width="390"
+                    height="14"
+                    xlink:href="data:img/png;base64,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"
+                  />
+                </svg>
+              </div>
+
+              <div class="desserts desserts--palette">
+                <div class="dessert dessert--palette">
+                  <div class="description description--palette">
+                    <p>Paris-Brest revisité</p>
                   </div>
-          
+                  <div class="prix prix--palette"><p>55€</p></div>
+                </div>
 
-                <div class="menus menus--palette">
-                      <div class="titreMenus titreMenus--palette">
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="391" height="14" viewBox="0 0 391 14">
-                        <image id="Calque_5" data-name="Calque 5" width="391" height="14" xlink:href="data:img/png;base64,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"/>
-                        </svg>
-                        <div class="titreMenu titreMenu--palette">
-                          <a class="translation translation--palette" href="#">Au sommet de l'art</a>
-                        </div>
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="390" height="14" viewBox="0 0 390 14">
-                        <image id="Calque_6" data-name="Calque 6" width="390" height="14" xlink:href="data:img/png;base64,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"/>
-                        </svg>
-                      </div>
+                <div class="dessert dessert--palette">
+                  <div class="description description--palette">
+                    <p>
+                      Macaron au chocolat d'exception et glace à la vanille de
+                      Madagascar
+                    </p>
+                  </div>
+                  <div class="prix prix--palette"><p>65€</p></div>
+                </div>
 
-                    <div class="desserts desserts--palette">
-                      <div class="dessert dessert--palette">
-                        <div class="description description--palette">
-                          <p>
-                            Paris-Brest revisité
-                          </p>
-                        </div>
-                        <div class="prix prix--palette"><p>55€</p></div>
-                      </div>
-
-                      <div class="dessert dessert--palette">
-                        <div class="description description--palette">
-                          <p>Macaron au chocolat d'exception et glace à la vanille de Madagascar</p>
-                        </div>
-                        <div class="prix prix--palette"><p>65€</p></div>
-                      </div>
-
-                      <div class="dessert dessert--palette">
-                        <div class="description description--palette">
-                          <p>Mousse au chocolat au piment d'espelette et à la truffe noire</p>
-                        </div>
-                        <div class="prix prix--palette"><p>60€</p></div>
-                      </div>
-                    </div>
-               </div>
-           </div>
-        </div>
+                <div class="dessert dessert--palette">
+                  <div class="description description--palette">
+                    <p>
+                      Mousse au chocolat au piment d'espelette et à la truffe
+                      noire
+                    </p>
+                  </div>
+                  <div class="prix prix--palette"><p>60€</p></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
     </main>
 
     <footer>
-      <a class="mentions" href="mentions.html"><h3 >Mentions légales</h3></a>
-      <a class="contact" href="contact.html"><h3 >Contactez-nous</h3></a>
+      <a class="mentions" href="mentions.html"><h3>Mentions légales</h3></a>
+      <a class="contact" href="contact.html"><h3>Contactez-nous</h3></a>
     </footer>
   </body>
 </html>

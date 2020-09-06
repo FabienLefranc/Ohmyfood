@@ -6,7 +6,7 @@
   height: 55px;
   display: flex;
   border-radius: 10px;
-  margin-bottom: 150px;
+  margin-bottom: 300px;
 
   & h3 {
     display: flex;
@@ -34,7 +34,7 @@
     animation-iteration-count: infinite;
     animation-timing-function: cubic-bezier(0.28, 0.85, 0.42, 1);
   }
-  
+
   & .point2 {
     content: "";
     position: absolute;
