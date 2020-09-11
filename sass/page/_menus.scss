@@ -8,6 +8,7 @@
 
   &--note {
     background-color: $couleur_corail;
+    margin-bottom: 150px;
   }
 
   &--chic {
@@ -16,6 +17,7 @@
 
   &--palette {
     background-color: $couleur_vert_pale;
+    margin-bottom: 150px;
   }
 
   &--delice {
@@ -272,10 +274,10 @@
     justify-content: center;
     align-items: center;
 
-    & .image{
+    & .image {
       width: 100%;
       margin-right: 0;
-      display:flex;
+      display: flex;
       justify-content: center;
     }
 

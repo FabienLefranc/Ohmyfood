@@ -13,14 +13,12 @@
     text-decoration: none;
   }
   &:first-child {
-    margin-top: 25px;
-    margin-bottom: 10px;
+    margin: 50px auto;
     position: relative;
     padding-top: 0;
   }
   &:nth-child(2) {
-    margin-top: 10px;
-    margin-bottom: 25px;
+    margin: 50px auto;
   }
 }
 .bloc__item {
@@ -127,6 +125,14 @@
   .bloc__menu--items {
     flex-direction: column;
   }
+  .bloc__menu--items {
+    &:first-child {
+    margin: 50px auto 10px;
+  }
+    &:nth-child(2){
+      margin: 10px auto;
+    }
+  }
   .bloc__item--lanoteenchantee {
     margin-bottom: 20px;
   }
@@ -134,7 +140,7 @@
     margin-bottom: 20px;
   }
   .prochainement {
-    margin-bottom: 60px;
+    margin: 50px auto;
   }
   footer {
     & h3 {

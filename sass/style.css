@@ -396,12 +396,6 @@
 }
 
 body {
-  margin: 0;
-  min-height: 100vh;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: auto 1fr auto;
-      grid-template-rows: auto 1fr auto;
   overflow-y: scroll;
   overflow-x: hidden;
 }
@@ -435,6 +429,9 @@ footer {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 50px;
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
 }
 
 footer h3 {
@@ -495,7 +492,8 @@ header a {
   display: -ms-flexbox;
   display: flex;
   border-radius: 10px;
-  margin-bottom: 80px;
+  margin: 150px auto;
+  z-index: 1;
 }
 
 .prochainement h3 {
@@ -612,15 +610,13 @@ header a {
 }
 
 .bloc__menu--items:first-child {
-  margin-top: 25px;
-  margin-bottom: 10px;
+  margin: 50px auto;
   position: relative;
   padding-top: 0;
 }
 
 .bloc__menu--items:nth-child(2) {
-  margin-top: 10px;
-  margin-bottom: 25px;
+  margin: 50px auto;
 }
 
 .bloc__item {
@@ -778,6 +774,12 @@ header a {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .bloc__menu--items:first-child {
+    margin: 50px auto 10px;
+  }
+  .bloc__menu--items:nth-child(2) {
+    margin: 10px auto;
+  }
   .bloc__item--lanoteenchantee {
     margin-bottom: 20px;
   }
@@ -785,7 +787,7 @@ header a {
     margin-bottom: 20px;
   }
   .prochainement {
-    margin-bottom: 60px;
+    margin: 50px auto;
   }
   footer h3 {
     font-size: 15px;
@@ -809,6 +811,7 @@ header a {
 
 .blocSection--note {
   background-color: #fcdfdb;
+  margin-bottom: 150px;
 }
 
 .blocSection--chic {
@@ -817,6 +820,7 @@ header a {
 
 .blocSection--palette {
   background-color: #fdfffd;
+  margin-bottom: 150px;
 }
 
 .blocSection--delice {

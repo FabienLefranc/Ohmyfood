@@ -6,6 +6,9 @@ footer {
   display: flex;
   align-items: center;
   margin-top: 50px;
+  position: fixed;
+  bottom: 0;
+  z-index : 10;
 
   & h3 {
     font-family: "montserrat", Arial, Helvetica, sans-serif;
